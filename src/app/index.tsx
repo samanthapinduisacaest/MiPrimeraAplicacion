@@ -35,24 +35,37 @@ export default function HomeScreen() {
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
           <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
+            Abigail Pinduisaca&nbsp;Expo
           </ThemedText>
         </ThemedView>
 
         <ThemedText type="code" style={styles.code}>
-          get started
+          <br />
+          Tecnico Salesiano
+          <br />
+          Elaborado por el area de desarrollo de software
+          <br />
+          SEGUNDO E1
+          <br />
+          Periodo lectivo 2026/2027
+        
         </ThemedText>
 
         <ThemedView type="backgroundElement" style={styles.stepContainer}>
           <HintRow
-            title="Try editing"
+            title="Try editing (Intentar editar)"
             hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
           />
-          <HintRow title="Dev tools" hint={getDevMenuHint()} />
+          <HintRow title="Herramientas del creador" hint={getDevMenuHint()} />
           <HintRow
-            title="Fresh start"
+            title="Comienza"
             hint={<ThemedText type="code">npm run reset-project</ThemedText>}
           />
+          <HintRow
+            title="Probar"
+            hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
+          />
+          
         </ThemedView>
 
         {Platform.OS === 'web' && <WebBadge />}
